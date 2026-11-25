@@ -1,0 +1,33 @@
+/* 技术帖主视觉 tokens v1.0（深夜台灯风）——与 scripts/fig_common.py 一一对应，改一处要两处一起改。 */
+
+:root {
+  /* 底 */
+  --bg: #101d1d;          /* 页面底，深青黑 */
+  --bg-darkest: #0b1414;  /* 最暗 */
+  --panel: #1d2b2b;       /* 卡片底 */
+  --panel-2: #223232;     /* 次卡片 */
+  --panel-edge: #2c3f3f;  /* 卡片描边 */
+
+  /* 文字 */
+  --ink: #f5f5f4;         /* 主文字，暖白，衬线 */
+  --secondary: #d6d1c2;   /* 次文字 */
+  --secondary-alt: #c9c4b4;
+  --muted: #9aa39a;       /* 弱文字 */
+  --faint: #8f8a7c;       /* 最弱文字 */
+
+  /* 灯光：每张图只用一处（标题下短横线） */
+  --lamp: #e8b34b;        /* 灯光黄 */
+
+  /* 语义色 */
+  --green: #6fcf9a;
+  --green-bg: #14261f;
+  --green-ink: #a9e8c3;
+  --red: #f0807a;
+  --red-bg: #2a1b1d;
+  --blue: #7ab3f0;
+  --blue-bg: #152430;
+  --grey: #7c857f;
+
+  /* 灯光晕（只当卡片底，描边一律用 --panel-edge） */
+  --amber-bg: #262214;
+}
